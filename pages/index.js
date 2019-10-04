@@ -6,11 +6,7 @@ import "./styles.css";
 
 export default () => (
   <div className="menuContainer">
-    <div>
-      <Navigation />
-    </div>
-    <div>
-      <MenuCarousel />
-    </div>
+    <Navigation />
+    <MenuCarousel className="MenuCarousel"/>
   </div>
 );

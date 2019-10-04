@@ -1,3 +1,19 @@
 .Row {
   height: 600px;
 }
+.menuContainer{
+    height: 500px;
+}
+.carouselSlide{
+    height: 400px;
+    width: 600px;
+}
+body{
+    background-color: pink;
+}
+.orders{
+    background-color: orangered;
+}
+.order-up{
+    background-color: wheat;
+}

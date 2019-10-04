@@ -15,15 +15,11 @@ export function Navigation() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/index">Home</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/menu">Menu</Nav.Link>
           <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
-              <Nav.Link href="/chefside">Edit Menu (Employees Only)</Nav.Link>
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">
-              <Nav.Link href="/catering">Catering</Nav.Link>
+              <Nav.Link href="/chefside">Chefside (Employees Only)</Nav.Link>
             </NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">
